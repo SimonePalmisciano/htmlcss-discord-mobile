@@ -75,6 +75,14 @@ section.ad-section {
 
 /* Button */
 
+.button{
+    padding: 10px 60px;
+    width:100%;
+    margin: 5px;
+    padding: 13px 60px;
+    border-radius: 15px;
+}
+
 .bi {
     display: inline-block;
     vertical-align: -.125em;
