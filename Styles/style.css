@@ -13,8 +13,45 @@ body{
 
 /* utlity */
 
+.text-white{
+    color: white;
+}
+
+.bg-color-purple {
+    background-color: #5D64D1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-sigmar-regular {
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.card{
+    width: 300px;
+    margin: 0 auto;
+}
+
 /* header */
 
 .banner{
     width: 512px;
 }
+
+.header{
+    margin-bottom: 60px;
+}
+
