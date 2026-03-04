@@ -9,6 +9,11 @@
 body {
     width: 512px;
     background-color: #191D7B;
+
+}
+
+main {
+    background-color: #191D7B;
 }
 
 /* Generals */
@@ -54,12 +59,11 @@ h2 {
     text-align: center;
 }
 
-
-
 /* header */
 
 .banner {
     width: 512px;
+    display: block;
 }
 
 .header {
@@ -92,25 +96,9 @@ h2 {
     font-size: 18px;
 }
 
-.bi {
-    display: inline-block;
-    vertical-align: -.125em;
-    width: 1em;
-    height: 1em;
-    color: black;
-}
-
 /* Badge */
 
-.img-mascotte {
-    width: 80px;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    translate: 30% -50%;
-}
-
-.img-megafono {
+.icon {
     width: 80px;
     position: absolute;
     top: 0px;
